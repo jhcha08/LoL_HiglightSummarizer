@@ -1,6 +1,11 @@
 # VideoSummarizer
 하이라이트 추출 모델을 학습/검증/테스트하는 기능을 구현
 
+run_trainer.ipynb: 모델 학습/검증/테스트, 하이라이트 구간 그래프로 표시 및 csv파일로 출력
+data_converter.py, data_loader.py: 영상 데이터를 pkl데이터로 전처리 및 모델에 로드
+Model_Result.ipynb: 하이라이트 구간 csv파일과 원본 영상을 이용해 최종 하이라이트 추출
+
+
 ## 0. Common
 ### Requirements
 ```
@@ -32,6 +37,7 @@ Examples:
 ```
 data/raw 디렉터리의 mp4, txt 파일로부터 segment 파일(.pkl)을 생성한다. 저장 디렉터리는 현재 디렉터리 하위에 생성된다.<br>
 이 때, segment 길이는 5초, 비디오 프레임에서 초당 3프레임을 추출하며 해상도는 64x64픽셀이 된다. 오디오는 11025Hz로 변환하여 추출하고 MFCC 전처리는 적용하지 않는다.
+**우리는 이것을 사용함**
 ```
 # python data_converter.py data/raw 3 6 128 128 22050 1 data/dataset1
 ```
