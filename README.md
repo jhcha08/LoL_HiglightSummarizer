@@ -1,9 +1,9 @@
 # VideoSummarizer
-하이라이트 추출 모델을 학습/검증/테스트하는 기능을 구현
+하이라이트 추출 모델을 학습/검증/테스트하는 기능을 구현<br>
 
-run_trainer.ipynb: 모델 학습/검증/테스트, 하이라이트 구간 그래프로 표시 및 csv파일로 출력
-data_converter.py, data_loader.py: 영상 데이터를 pkl데이터로 전처리 및 모델에 로드
-Model_Result.ipynb: 하이라이트 구간 csv파일과 원본 영상을 이용해 최종 하이라이트 추출
+run_trainer.ipynb: 모델 학습/검증/테스트, 하이라이트 구간 그래프로 표시 및 csv파일로 출력<br>
+data_converter.py, data_loader.py: 영상 데이터를 pkl데이터로 전처리 및 모델에 로드<br>
+Model_Result.ipynb: 하이라이트 구간 csv파일과 원본 영상을 이용해 최종 하이라이트 추출<br>
 
 
 ## 0. Common
