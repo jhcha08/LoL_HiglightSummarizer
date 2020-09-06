@@ -4,6 +4,7 @@
 run_trainer.ipynb: 모델 학습/검증/테스트, 하이라이트 구간 그래프로 표시 및 csv파일로 출력<br>
 data_converter.py, data_loader.py: 영상 데이터를 pkl데이터로 전처리 및 모델에 로드<br>
 Model_Result.ipynb: 하이라이트 구간 csv파일과 원본 영상을 이용해 최종 하이라이트 추출<br>
+Train History.xlsx: 여러 모델 실험 결과 기록 (2D CNN, 3D CNN, 2D CNN + LSTM, 3D CNN + LSTM, 최종 모델)
 
 
 ## 0. Common
